@@ -1,14 +1,25 @@
 import { formatDate } from '../../utils/formatDate';
+import { Col, Row, Card, CardImg} from 'reactstrap'; 
 
 const Comment = ({ comment }) => {
-    const { text: commentText, rating, author, date } = comment;
+    const { text: commentText, rating, author, date, image } = comment;
 
     return (
-        <p>
-            {commentText}
+        <Row className="mb-4">
+    <Col xs="3">
+    <Card>
+                <CardImg top src={image} alt={image} />
+                
+            </Card>
+                </Col>
+        <Col xs="9">
+          <p>
+            {commentText} - {rating}% Completion, {formatDate(date)}
             <br />
-            {rating}/5 stars -- {author}, {formatDate(date)}
-        </p>
+            {author}
+          </p>
+        </Col>
+      </Row>
     );
 };
 
