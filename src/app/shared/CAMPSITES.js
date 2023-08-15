@@ -1,43 +1,46 @@
-import reactLakeImg from '../assets/img/react-lake.jpg';
-import chromeRiverImg from '../assets/img/chrome-river.jpg';
-import breadCrumbImg from '../assets/img/breadcrumb-trail.jpg';
-import reduxWoodsImg from '../assets/img/redux-woods.jpg';
+import TerrasseviewImg from '../assets/img/terrasse1.png';
+import StairsImg from '../assets/img/stairs1.png';
+import BasementImg from '../assets/img/basement1.png';
+import LandscapingImg from '../assets/img/landscaping1.png';
+
+
 
 export const CAMPSITES = [
     {
         id: 0,
-        name: 'React Lake Campground',
-        image: reactLakeImg,
+        name: 'Terrasse',
+        image: TerrasseviewImg,
         elevation: 1233,
         featured: false,
         description:
-            'Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.'
+            'Terrasse to be sealed, insulated and anchored.'
     },
     {
         id: 1,
-        name: 'Chrome River Campground ',
-        image: chromeRiverImg,
+        name: 'Interior stairs',
+        image: StairsImg,
         elevation: 877,
         featured: false,
         description:
-            'Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River.'
+            'Needs to be solidified and finished'
     },
     {
         id: 2,
-        name: 'Breadcrumb Trail Campground',
-        image: breadCrumbImg,
+        name: 'Basement finishing',
+        image: BasementImg,
         elevation: 2901,
         featured: false,
         description:
-            'Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground.'
+            'Ceiling and finishing'
     },
     {
         id: 3,
-        name: 'Redux Woods Campground',
-        image: reduxWoodsImg,
+        name: 'Landscaping',
+        image: LandscapingImg,
         elevation: 42,
         featured: true,
         description:
-            "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+            "Rearrange and seal rocks for a clean entrance"
     }
 ];
+
