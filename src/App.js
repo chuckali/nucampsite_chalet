@@ -15,7 +15,7 @@ function App() {
        <div className='App' style={{ backgroundColor: 'rgb(13, 188, 28)' }}>
             <Header />
             <Routes>
-                <Route path='/' element={<HomePage />} />
+                <Route path='yo' element={<HomePage />} />
                 <Route path='contact' element={<ContactPage />} />
                 <Route path='directory' element={<CampsitesDirectoryPage />} />
                 <Route path='directory/:campsiteId' element={<CampsiteDetailPage />}/>
