@@ -15,11 +15,11 @@ function App() {
        <div className='App' style={{ backgroundColor: 'rgb(13, 188, 28)' }}>
             <Header />
             <Routes>
-                <Route path='yo' element={<HomePage />} />
-                <Route path='contact' element={<ContactPage />} />
-                <Route path='directory' element={<CampsitesDirectoryPage />} />
-                <Route path='directory/:campsiteId' element={<CampsiteDetailPage />}/>
-                <Route path='about' element={<AboutPage />} />
+                <Route path='/chalet' element={<HomePage />} />
+                <Route path='/chalet/contact' element={<ContactPage />} />
+                <Route path='/chalet/directory' element={<CampsitesDirectoryPage />} />
+                <Route path='/chalet/directory/:campsiteId' element={<CampsiteDetailPage />}/>
+                <Route path='/chalet/about' element={<AboutPage />} />
             </Routes>
             <Footer />
         </div>
