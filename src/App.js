@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
@@ -11,7 +11,8 @@ import AboutPage from './pages/AboutPage'
 
 function App() {
     return (
-        <div className='App' style={{ backgroundColor: 'rgb(13, 188, 28)' }}>
+        <Router>
+       <div className='App' style={{ backgroundColor: 'rgb(13, 188, 28)' }}>
             <Header />
             <Routes>
                 <Route path='/' element={<HomePage />} />
@@ -22,6 +23,7 @@ function App() {
             </Routes>
             <Footer />
         </div>
+        </Router>
     );
 }
 
