@@ -11,7 +11,7 @@ import AboutPage from './pages/AboutPage'
 
 function App() {
     return (
-        <Router>
+  
        <div className='App' style={{ backgroundColor: 'rgb(13, 188, 28)' }}>
             <Header />
             <Routes>
@@ -23,7 +23,7 @@ function App() {
             </Routes>
             <Footer />
         </div>
-        </Router>
+
     );
 }
 
