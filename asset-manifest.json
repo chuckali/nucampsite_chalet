@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nucampsite_chalet/static/css/main.4ea32f19.css",
-    "main.js": "/nucampsite_chalet/static/js/main.2fe76960.js",
+    "main.js": "/nucampsite_chalet/static/js/main.e17f18d8.js",
     "static/media/landscaping1.png": "/nucampsite_chalet/static/media/landscaping1.c9e27dd1216bf7396cf6.png",
     "static/media/logo.png": "/nucampsite_chalet/static/media/logo.035f9859af3790bdcb86.png",
     "static/media/terrasse1.png": "/nucampsite_chalet/static/media/terrasse1.dc8e75d229a5aff06485.png",
@@ -55,10 +55,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/nucampsite_chalet/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/nucampsite_chalet/index.html",
     "main.4ea32f19.css.map": "/nucampsite_chalet/static/css/main.4ea32f19.css.map",
-    "main.2fe76960.js.map": "/nucampsite_chalet/static/js/main.2fe76960.js.map"
+    "main.e17f18d8.js.map": "/nucampsite_chalet/static/js/main.e17f18d8.js.map"
   },
   "entrypoints": [
     "static/css/main.4ea32f19.css",
-    "static/js/main.2fe76960.js"
+    "static/js/main.e17f18d8.js"
   ]
 }
