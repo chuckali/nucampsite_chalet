@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, link } from 'react-router-dom';
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
 import Header from './components/Header';
@@ -14,6 +14,16 @@ function App() {
   
        <div className='App' style={{ backgroundColor: 'rgb(13, 188, 28)' }}>
             <Header />
+            <Router>
+        <nav>
+          <ul>
+            <li><Link to={`${process.env.PUBLIC_URL}/chalet`}>Homepage</Link></li>
+            <li><Link to={`${process.env.PUBLIC_URL}/chalet/contact`}>Contact</Link></li>
+            <li><Link to={`${process.env.PUBLIC_URL}/chalet/directory`}>Directory</Link></li>
+            <li><Link to={`${process.env.PUBLIC_URL}/chalet/about`}>About</Link></li>
+          </ul>
+        </nav>
+        </Router>
             <Routes>
                 <Route path='/chalet' element={<HomePage />} />
                 <Route path='/chalet/contact' element={<ContactPage />} />
